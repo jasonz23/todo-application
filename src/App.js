@@ -17,10 +17,10 @@ function App() {
     setToDoList(mapped);
   }
   const handleFilter = () => {
-    let filtered = toDoList.filter(task => {
+    let f = toDoList.filter(task => {
       return !task.complete;
     });
-    setToDoList(filtered);
+    setToDoList(f);
   }
 
    const addTask = (userInput) => {
