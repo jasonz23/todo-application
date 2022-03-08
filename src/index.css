@@ -23,6 +23,7 @@ h1 {
   font-size: 35px;
   font-weight: normal;
   margin-top: 5px;
+  color: Blue;
 }
 
 /* Applies to all elements with <... class="someclass"> specified. */
@@ -30,3 +31,16 @@ h1 {
 
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: green; }
+
+.headerClass {
+  background-color: lightblue;
+  font-family: Blippo, fantasy;
+  font-size: 55px;
+  font-weight: normal;
+  margin-top: 25px;
+  background-size: 200px 100px;
+  border-color: rgb(16, 117, 117);
+  border-style: solid;
+  border-radius: 300px;
+  border-width: 12px;
+}

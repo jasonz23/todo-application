@@ -4,7 +4,7 @@ import React, {useState} from "react";
 import data from "./data.json";
 import Header from "./Header";
 import ToDoList from "./ToDoList";
-import { toHaveStyle } from '@testing-library/jest-dom/dist/matchers';
+//import { toHaveStyle } from '@testing-library/jest-dom/dist/matchers';
 import ToDoForm from './ToDoForm';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 
   const handleToggle = (id) => {
     let mapped = toDoList.map(task => {
-      return task.id == Number(id) ? { ...task, complete: !task.complete}: {...task};
+      return task.id === Number(id) ? { ...task, complete: !task.complete}: {...task};
     });
     setToDoList(mapped);
   }
