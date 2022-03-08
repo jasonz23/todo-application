@@ -32,8 +32,9 @@ function App() {
   return (
     <div className="App">
       <Header />  
-      <ToDoList toDoList={toDoList} handleFilter = {handleFilter} handleToggle = {handleToggle} />
       <ToDoForm addTask = {addTask} />
+      <ToDoList toDoList={toDoList} handleFilter = {handleFilter} handleToggle = {handleToggle} />
+      
     </div>
   );
 }
