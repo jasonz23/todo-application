@@ -38,5 +38,31 @@ function App() {
     </div>
   );
 }
+// const handleFilter = () => {
+//   let f = toDoList.filter(task => {
+//     return !task.complete;
+//   });
+//   setToDoList(f);
+
+// }
+
+//     return (
+//       <div>
+        
+//         <h3>
+//           {data.map((toDoList, key) => {
+//             return <p key = {toDoList.id} className = {toDoList.complete? "todo strike" : "todo"} >
+//               {toDoList.task}
+//               </p>
+//           })}
+//         </h3>
+//         <button onClick = {handleFilter}>
+//         remove Task
+//         </button>
+//       </div>
+      
+
+//     )
+// }
 
 export default App;
